@@ -1,6 +1,7 @@
-🦠 Malaria Diagnosis Using Deep Learning
+# 🦠 Malaria Diagnosis Using Deep Learning
 Automated detection of malaria-infected blood cells using TensorFlow, NumPy, Matplotlib, and Seaborn
-📌 Overview
+
+# 📌 Overview
 
 This project implements an end-to-end deep learning pipeline for automatic malaria diagnosis using microscopic blood cell images. Leveraging the TensorFlow Malaria Dataset, it trains a convolutional neural network (CNN) to classify images as Parasitized or Uninfected.
 
@@ -14,8 +15,8 @@ Matplotlib & Seaborn for data visualization and performance analysis
 
 This project demonstrates how AI can support disease diagnosis by providing fast, reliable, and scalable image-based screening.
 
-⭐ Features
-🔍 Data Handling
+# ⭐ Features
+## 🔍 Data Handling
 
 Imports and preprocesses the TensorFlow Malaria Dataset
 
@@ -23,7 +24,7 @@ Normalizes images and prepares train/validation datasets
 
 Includes class balancing and shuffling
 
-🧠 Deep Learning Model
+## 🧠 Deep Learning Model
 
 CNN architecture built with TensorFlow/Keras
 
@@ -31,7 +32,7 @@ Trained to distinguish parasitized vs. uninfected cells
 
 Tracks accuracy, loss, and validation performance
 
-📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
 Visualization of sample images
 
@@ -41,7 +42,7 @@ Pixel intensity analysis
 
 Training curves (accuracy & loss)
 
-📈 Model Evaluation
+## 📈 Model Evaluation
 
 Confusion matrix
 
@@ -51,12 +52,5 @@ Accuracy and loss charts
 
 Seaborn-based heatmaps for interpretability
 
-🗂️ Tech Stack
-Category	Tools
-Deep Learning	TensorFlow, Keras
-Data Processing	NumPy
-Visualization	Matplotlib, Seaborn
-Dataset	TensorFlow Malaria Dataset
-
-LICENSE
+# LICENSE
 This project is open-source and available under the MIT License.
